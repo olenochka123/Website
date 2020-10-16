@@ -1,0 +1,62 @@
+body {
+    background: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  
+  .nav {
+    width: 600px;
+  }
+  
+  .menu {
+    margin: 70px 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+  }
+  
+  span {
+    color: #000000;
+  }
+  
+  label {
+    font-size: 60px;
+    line-height: 70px;
+    display: none;
+    width: 30px;
+    margin: 50px 0 0 140px;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  #circle1 {
+    width: 35px;
+    height: 35px;
+    background: #458FF6;
+    border-radius: 50%;
+    position: relative;
+    top: -117px;
+    left: 1025px;
+  }
+  
+  .header-t_in_circle{
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    bottom: 167px;
+    left: 1035px;
+  }
+  
+  .header-trafalgar {
+    color: #233348;
+    font-weight: 500;
+    position: relative;
+    bottom: 215px;
+    left: 1070px;
+  }
+  

@@ -1,0 +1,14 @@
+@media (min-width: 1441px) {
+	.header {
+    background: url(../images/header-image.svg) no-repeat 62.2% 40% ;
+  }
+
+  .article {
+    background: url(../images/Vector.svg) no-repeat 80%;
+  }
+
+  .article_background{
+    background: url(../images/dot.svg) no-repeat 28% 3%;
+    background-size: 150px 135px;
+  }
+}

@@ -1,0 +1,150 @@
+@media (max-width: 1200px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    display: none;
+  }
+
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+  #circle1,
+  .article_dot,
+  .header-t_in_circle,
+  .header-trafalgar {
+    display: none;
+  }
+
+  .header {
+    background: none;
+    height: 1000px;
+  }
+
+  .header >.container >.app_inner {
+    position: relative;
+    top: 150px;
+    left: 30px;
+    background-color: #ffffff;
+  }
+
+  .app_heading {
+    margin: 0;
+  }
+
+  .button-download {
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #458FF6;
+    background: #ffffff;
+    border: 2px solid #458FF6;
+    border-radius: 50px;
+  }
+
+  .title {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+	.article {
+    background: none;
+    height: 1800px;
+  }
+
+  .article_background{
+    background: none;
+  }
+
+  .article_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .article1_container,
+  .article2_container,
+  .article3_container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app_inner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .customer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 400px;
+  }
+
+  .customer_inner {
+    height: 1px;
+  }
+
+  .customer {
+    background: none;
+  }
+
+  .customer_media {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 370px;
+    height: 640px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paragraph {
+    width: 300px;
+  }
+
+  .customer_info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+  }
+
+  .customer_swiper_arrow1,
+  .customer_swiper_arrow2 {
+    margin: 0px 50px ;
+  }
+
+  .customer_swiper {
+    margin: 40px 0;
+  }
+
+  .footer_element {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 37px;
+    height: 80px;
+  }
+
+  .footer {
+    height: 125px;
+  }
+   
+}

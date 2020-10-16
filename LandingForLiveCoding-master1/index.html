@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <head>
   <title>My website </title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/components/article.css" >
+  <link rel="stylesheet" href="./css/components/container.css">
+  <link rel="stylesheet" href="./css/components/customer.css">
+  <link rel="stylesheet" href="./css/components/footer.css">
+  <link rel="stylesheet" href="./css/components/header.css">
+  <link rel="stylesheet" href="./css/adaptation/4kscreens.css">
+  <link rel="stylesheet" href="./css/adaptation/iphone5s.css">
   <style>
     li {
      list-style-type: none; 
@@ -12,26 +18,33 @@
 
 <body>
   <header class="header">
-    <div class="flex-container-header">
-      <div class="flex-container_element-Home">Home</div>
-      <div class="flex-container_element-Find_a_doctor">Find a doctor</div>
-      <div class="flex-container_element-Apps">Apps</div>
-      <div class="flex-container_element-Testimonials">Testimonials</div>
-      <div class="flex-container_element-About_us">About us</div>
-    </div>
-    <div id="circle1"></div>  
+    <div class="container">
+      <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#"><span>Home</span></a>
+            <a href="#">Find a doctor</a>
+            <a href="#">Apps</a>
+            <a href="#">Testimonials</a>
+            <a href="#">About us</a>
+        </div>
+      </div>
+      <div id="circle1"></div>  
       <h2 class="header-t_in_circle">T</h2>
       <h2 class="header-trafalgar">Trafalgar</h2>
-      <div class="container page1_container">
-    <div class="app_inner">
-      <h1 class="app_heading">Download our mobile apps</h1>
-      <div id="rectangle1"></div>  
-      <p class="app_paragraph"> Our dedicated patient engagement app and web portal allow you 
-        to access information instantaneously (no tedeous form, long calls, 
-        or administrative hassle) and securely
-      </p>
-      <button class="button-download">Download &darr;</button>
-      <img src="images/dot.svg" width="150" height="135" alt="Dots" class="article_dot">
+    </div>
+    <div class="container">
+      <div class="app_inner">
+        <h1 class="app_heading">Download our mobile apps</h1>
+        <div id="rectangle1"></div>  
+        <p class="app_paragraph"> Our dedicated patient engagement app and web portal allow you 
+          to access information instantaneously (no tedeous form, long calls, 
+          or administrative hassle) and securely
+        </p>
+        <button class="button-download">Download &darr;</button>
+        <img src="images/dot.svg" width="150" height="135" alt="Dots" class="article_dot">
+      </div>
     </div>
   </header>
 
@@ -78,7 +91,8 @@
 
 
   <section class="customer">
-    <div class="customer_inner"></div>
+    <div class="customer_media">
+      <div class="customer_inner"></div>
       <h1 class="title">What our customer are saying</h1> 
       <div id="rectangle4"></div>
       <div class="container customer_container">
@@ -108,7 +122,7 @@
 
 
   <footer class="footer">
-    <div class="footer_inner">
+    <div class="container">
       <div class="footer_container">
         <div class="footer_trafalgar">
           <div id="footer_circle2"></div>  
